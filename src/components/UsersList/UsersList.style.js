@@ -14,6 +14,7 @@ to {
 
 export const UsersContainer = styled.div`
 width:70%;
+height:100%;
 display:flex;
 flex-wrap:wrap;
 justify-content:flex-end;
@@ -51,10 +52,11 @@ visibility:hidden;
 
 export const UserContainer = styled.div`
 display:flex;
+width:150px;
+height:20px;
 border:3px solid;
 margin:4px;
 box-shadow: 1px 1px 4px 0px #888888;
-width:150px;
 justify-content: space-between;
 padding: 5px;
 visibility: ${props => props.isFadingOut ? 'hidden' : 'visible'};
